@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+</head>
+<body>
+    <!--header types -->
+    </h1> THIS MY FIRST HTML CODE</h1>
+    <h1>Capgemini</h1>
+    <h2>Capgemini</h2>
+    <h3>Capgemini</h3>
+    <h4>Capgemini</h4>
+    <h5>Capgemini</h5>
+    <h6>Capgemini</h6>
+    <p>Capgemini cares about your privacy and enables you to choose the types of cookies we can use when you visit our website.<br> You may use the “Manage Cookie Settings” functionality in the banner and/or footer of the website to change our default settings. We use cookies to enhance your experience on our website. <br>They also assist us in improving the website's performance, delivering relevant content to you, and enabling you to share content on social networks. Choosing not to allow the use of certain cookies may consequently <strong>affect your browsing experience and limit the availability of some services.</strong></p>
+<h1>Courses available</h1>
+<ol>
+    <li>Java Full stack</li>
+    <li>Data aAnalytics</li>
+    <li>Python Development</li>
+    <li>Aws</li>
+</ol>
+<ol type="a">
+    <li>Java Full stack</li>
+    <li>Data aAnalytics</li>
+    <li>Python Development</li>
+    <li>Aws</li>
+</ol>
+<ol type="A">
+    <li>Java Full stack</li>
+    <li>Data aAnalytics</li>
+    <li>Python Development</li>
+    <li>Aws</li>
+</ol>
+<ol type="I">
+    <li>Java Full stack</li>
+    <li>Data aAnalytics</li>
+    <li>Python Development</li>
+    <li>Aws</li>
+</ol>
+<ol type="i">
+    <li>Java Full stack</li>
+    <li>Data aAnalytics</li>
+    <li>Python Development</li>
+    <li>Aws</li>
+</ol>
+<ul >
+    <li>Java Full stack</li>
+    <li>Data aAnalytics</li>
+    <li>Python Development</li>
+    <li>Aws</li>
+</ul>
+<ul type="circle">
+    <li>Java Full stack</li>
+    <li>Data aAnalytics</li>
+    <li>Python Development</li>
+    <li>Aws</li>
+</ul>
+<ul type="square">
+    <li>Java Full stack</li>
+    <li>Data aAnalytics</li>
+    <li>Python Development</li>
+    <li>Aws</li>
+</ul>
+<dl>
+    <dt><b>Html</b>
+      
+            <dd>
+Hypertext Markup Language.
+        </dd>
+    </dt>
+    <dt><b>AWS</b>
+      
+            <dd>
+Amazon Web Server.
+        </dd>
+    </dt>
+</dl>
+</body>
+</html>

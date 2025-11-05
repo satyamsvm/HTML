@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Form</title>
+</head>
+<body>
+    <h2>Welcome to Home Page!!!</h2>
+
+    <form>
+        <table border="0" cellpadding="5">
+            <tr>
+                <td><label for="fname">Employee Full Name:</label></td>
+                <td><input type="text" id="fname" name="fname" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Employee Email Id:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="dept">Select Department:</label></td>
+                <td>
+                    <select id="dept" name="department" required>
+                        <option value="">--Select--</option>
+                        <option value="HR">HR</option>
+                        <option value="IT">IT</option>
+                        <option value="Training">Training</option>
+                        <option value="Sales">Sales</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Gender:</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="Male"> <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female"> <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="Other"> <label for="other">Other</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label>Check Company Address:</label></td>
+                <td>
+                    <input type="checkbox" id="airoli" name="location" value="Capgemini Airoli">
+                    <label for="airoli">Capgemini Airoli</label><br>
+                    <input type="checkbox" id="vikroli" name="location" value="Capgemini Vikroli">
+                    <label for="vikroli">Capgemini Vikroli</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        p{
+            color: green;
+            text-align: center;
+            font-size: x-large;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style:italic;
+            font-weight: 100;
+            border:2px solid red;
+            padding: 10px;
+            margin-top:50px;
+        }
+    </style>
+</head>
+<body>
+   <h1 style="color:red">Cascading stle sheet</h1>
+   <h1>used to design web page.</h1> 
+   <p>Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java</p>
+   <p>Cascading Style Sheets is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+</body>
+</html>
