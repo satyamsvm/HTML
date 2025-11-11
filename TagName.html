@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElemntByTagName()</title>
+</head>
+<body>
+    <p>Digital Academy</p>
+    <p>Get Your Dream Job</p>
+    <p>Placent Oriented Approch</p>
+    <button onclick="disp()">Submit</button>
+ <script>
+    function disp(){
+        let cp=document.getElementsByTagName("p");
+        for(let i=0;i<cp.length;i++)
+    {
+        cp[i].style.color="red"
+        cp[i].innerHTML="Paragraph"+(i+1)+"changed!!!";
+    }
+}
+ </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementByClass</title>
+    <style>
+        body{
+           background-color: rgb(195, 127, 255);
+           text-align:inherit;
+        }
+            
+    </style>
+
+</head>
+<body>
+    <h1 class="c">Hello!</h1>
+    <h1 class="c">Hi</h1>
+    <h1 class="c">H r u??</h1>
+    <button onclick="msg()">change message</button>
+
+    <script>
+
+        function msg(){
+            var data=document.getElementsByClassName("c");
+
+            for(var i=0;i<data.length;i++){
+                data[i].innerHTML="Change Your Word"
+                data[i].style.color="red"
+            }
+        }
+    </script>
+</body>
+</html>

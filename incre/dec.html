@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            border: 5px solid rgb(14, 0, 160);
+        }     
+    </style>
+</head>
+<body>
+    <h2>🔢 Increment, Decrement & Reset Counter</h2>
+
+  <!-- Counter Boxes -->
+  <div class="counter-box">
+    <p class="value">0</p>
+    <button class="increment">+</button>
+    <button class="decrement">−</button>
+    <button class="reset">Reset</button>
+  </div>
+
+  <script>
+    // Get all elements by class name
+    var increments = document.getElementsByClassName("increment");
+    var decrements = document.getElementsByClassName("decrement");
+    var resets = document.getElementsByClassName("reset");
+    var values = document.getElementsByClassName("value");
+
+    // Loop through all counters
+    for (let i = 0; i < increments.length; i++) {
+
+      // Increment
+      increments[i].addEventListener("click", function() {
+        let count = parseInt(values[i].innerHTML);
+        values[i].innerHTML = count + 1;
+      });
+
+      // Decrement
+      decrements[i].addEventListener("click", function() {
+        let count = parseInt(values[i].innerHTML);
+        if (count > 0) {
+          values[i].innerHTML = count - 1;
+        }
+      });
+
+      // Reset
+      resets[i].addEventListener("click", function() {
+        values[i].innerHTML = 0;
+      });
+    }
+  </script>
+</body>
+</html>

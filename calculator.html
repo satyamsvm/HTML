@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            background-color: wheat;
+            border: 15px solid rgb(14, 0, 160);
+            
+        }
+        #i1{
+            border: 1px solid red;
+            margin:10px;
+            padding :10px;
+        }
+          #i2{
+            border: 1px solid red;
+            margin:10px;
+            padding :10px;
+        }
+        #para
+        {
+
+            color:red;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #b1{
+            background-color: aqua;
+            border: 2px solid red;
+             border-radius: 10px ;
+        }
+         #b2{
+            background-color: aqua;
+            border: 2px solid red;
+           
+             border-radius: 10px ;
+        }
+ #b3{
+            background-color: aqua;
+             border: 2px solid red;
+             border-radius: 10px ;
+        }
+         #b4{
+            background-color: aqua;
+             border: 2px solid red;
+           
+             border-radius: 10px ;
+        }
+         #b5{
+            background-color: aqua;
+             border: 2px solid red;
+             border: 2px solid red;
+             border-radius: 10px ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Matahamatical Operation</h1>
+
+    <input type="number" id="i1" placeholder="Enter Input1"></input>
+     <input type="number" id="i2" placeholder="Enter Input2"></input>
+     <br><br>
+<button  id="b1" onclick="sum()" >Add+</button>
+<button  id="b2" onclick="sub()">Substraction-</button>
+<button id="b3"onclick="mul()">multiplication*</button>
+<button  id="b4"onclick="div()">Division/</button>
+<button id="b5" onclick="rem()" >Reminder%</button>
+
+<p id="para">Result=</p>
+
+<script>
+    function sum(){
+        var num1=parseInt(document.getElementById("i1").value);
+         var num2=parseInt(document.getElementById("i2").value);
+         document.getElementById("para").innerHTML="Result:"+(num1+num2)
+    }
+    function sub(){
+        var num1=parseInt(document.getElementById("i1").value);
+         var num2=parseInt(document.getElementById("i2").value);
+         document.getElementById("para").innerHTML="Result:"+(num1-num2)
+    }
+    function mul(){
+        var num1=parseInt(document.getElementById("i1").value);
+         var num2=parseInt(document.getElementById("i2").value);
+         document.getElementById("para").innerHTML="Result:"+(num1*num2)
+    }
+    function div(){
+        var num1=parseInt(document.getElementById("i1").value);
+         var num2=parseInt(document.getElementById("i2").value);
+         document.getElementById("para").innerHTML="Result:"+(num1/num2)
+    }
+    function rem(){
+        var num1=parseInt(document.getElementById("i1").value);
+         var num2=parseInt(document.getElementById("i2").value);
+         document.getElementById("para").innerHTML="Result:"+(num1%num2)
+    }
+</script>
+</body>
+</html>
